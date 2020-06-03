@@ -1,0 +1,25 @@
+{
+  "name": "webpack-express-hmr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rm -rf ./dist && webpack --config webpack.config.server.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "start-server-webpack-plugin": "^2.2.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "tsc-watch": "^4.2.8",
+    "webpack-cli": "^3.3.11"
+  }
+}
